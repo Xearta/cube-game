@@ -4,9 +4,8 @@ public class PlayerMovement : MonoBehaviour
 {
     public Rigidbody rb;
     public float forwardForce = 2000f;
-    private float touchSidewaysForce = 500f;
+    private float touchSidewaysForce = 300f;
     private float keyboardSidewaysForce = 50f;
-    public float sidewaysForce = 500f;
     public float levelNumber = 1;
 
     // We marked this as "Fixed"Update because we
